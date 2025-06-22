@@ -1,0 +1,170 @@
+/*Formatação do Body*/
+
+body{
+    background-image: url('../../view/images/cinema-wallpaper.jfif');
+}
+
+
+
+
+
+/*Configuração do index/carrossel*/
+
+.pos-botao-carousel-left{
+    padding-right: 120px;
+}
+
+.pos-botao-carousel-right{
+    padding-left: 100px;
+}
+
+.button-proximo{
+    width: 0;
+    left: 1200px;
+    right: 0;
+    color: rgb(0, 0, 0);
+}
+
+.button-voltar{
+    width: 0;
+    left: 90px;
+    right: 0;
+    color: rgb(0, 0, 0);
+}
+
+.card{
+    height: 100%;
+    background-color: #2b3035;
+    color: white;
+}
+
+
+
+
+
+/*Configurações da página de horário*/
+
+.horario{
+    padding-top: 150px;
+}
+
+.info-horario{
+    padding-left: 20px;
+}
+
+.button-horario{
+    padding-top: 90px;
+}
+
+
+
+
+
+/*Formatação da div padrão no centro da tela*/
+
+.centered-div {
+    position: relative;
+    margin-left: 38vw;
+    margin-top: 10vw;
+    width: 500px;
+    height: 500px;
+    background-color: #2b3035;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+/*Configurações da página de reserva de assento*/
+
+.centered-div-fileira{
+    padding-top: 50px;
+    padding-left: 35%;
+}
+
+.tela{
+    background-color: rgb(176, 0, 0);
+    width: 350px;
+    height: 20px;
+    margin-top: 42%;
+    margin-left: 15%;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.info-tela{
+    display: flex;
+    justify-content: center;
+}
+
+.button-assento{
+    padding-top: 100px;
+}
+
+/* Configuração para assento já ocupado */
+.assento-desativado {
+    display: none;
+}
+
+.assento-desativado + label {
+    color: red;
+    cursor: not-allowed;
+}
+
+.assento-desativado + label::before {
+    content: '✘';
+    color: red;
+    font-size: 1.2em;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 50%;
+    background: #f8f8f8;
+}
+
+input[type="radio"] + label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+
+
+
+/*Configurações da página de confirmação do ingresso*/
+
+.form-ingresso{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.button-confirmacao-ingresso{
+    padding-top: 30px;
+}
+
+
+
+/*Configurações da página de visualização de ingresso*/
+
+.ingresso{
+    width: 350px;
+    height: 20px;
+    margin-top: 42%;
+    margin-left: 25%;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button-ingresso{
+    padding-top: 50px;
+    position: relative;
+    right: 15%;
+}
