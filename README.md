@@ -1,5 +1,5 @@
 # Projeto-Cinema
-Repositório para versionamento de um sistema para cinemas, com reserva de horários e assentos conforme os filmes.
+Repositório para versionamento de um sistema para cinemas, com reserva de horários e assentos conforme os filmes feito em conjunto com a empresa <b>Light System</b>.
 
 <h3>Linguagens utilizadas:</h3>
 - HTML, CSS e PHP<br><br>
